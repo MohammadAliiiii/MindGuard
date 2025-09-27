@@ -66,7 +66,3 @@ See `deployment/` directory for:
 ```bash
 pytest tests/
 ```
-
-## License
-
-MIT License - See LICENSE file for details.
