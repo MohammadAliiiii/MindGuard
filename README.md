@@ -61,6 +61,3 @@ See `deployment/` directory for:
 - Linux package management
 - Microsoft Intune policies
 
-## Testing
-
-```bash
