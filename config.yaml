@@ -1,0 +1,40 @@
+# Idle Security Reminder Configuration
+
+# Idle detection settings
+idle_seconds: 120  # Time in seconds before showing reminder (default: 2 minutes)
+
+# Message settings
+messages_file: "messages.txt"  # Path to messages file
+
+# Visual appearance
+theme: "light"  # Options: light, dark, high_contrast
+background_color: "#000000"  # Overlay background color
+text_color: "#FFFFFF"        # Text color
+font_family: "Arial"         # Font family (system fonts)
+font_scale: 1.0             # Font size multiplier
+
+# Reporting (disabled by default for security)
+show_report_button: false
+report_endpoint: ""  # HTTPS URL for security incident reporting
+
+# System integration
+start_on_boot: false  # Advisory - use deployment scripts to enable
+
+# Accessibility
+high_contrast_mode: false
+text_to_speech: false  # Disabled by default
+respect_system_scaling: true
+
+# Logging
+log_level: "INFO"  # Options: DEBUG, INFO, WARN, ERROR
+log_file: "idle_reminder.log"
+max_log_size_mb: 5
+
+# Multi-monitor support
+multi_monitor: true  # Show overlay on all monitors
+
+# Performance
+check_interval_ms: 1000  # How often to check idle time (milliseconds)
+
+# Security
+allow_local_network_reporting: false  # Only allow HTTPS external endpoints
